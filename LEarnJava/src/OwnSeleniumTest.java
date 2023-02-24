@@ -20,7 +20,7 @@ public class OwnSeleniumTest {
 	       ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\'login_field\']")));
 	       WebElement pwd_Fld = driver.findElement(By.xpath("//*[@id=\'password\']"));
 	       Login_Fld.sendKeys("arunadityabagchi@gmail.com");
-	       pwd_Fld.sendKeys("Dalmadal@10");
+	       pwd_Fld.sendKeys("Sunshine@10");
 	       driver.findElement(By.xpath("//*[@id='login']/div[4]/form/div/input[11]")).click();
 	       String actual_title = driver.getTitle();
 	       String expected_title ="GitHub";
